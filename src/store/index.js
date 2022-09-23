@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import getters from './getters'
-import app from './modules/app'
+import getters from './getters' // 用于派生数据,计算属性
+import app from './modules/app' // app模块
 import settings from './modules/settings'
 import user from './modules/user'
 
@@ -16,4 +16,4 @@ const store = new Vuex.Store({
   getters
 })
 
-export default store
+export default store // 在main.js中引入

@@ -6,11 +6,11 @@ module.exports = {
    * @type {boolean} true | false
    * @description Whether fix the header
    */
-  fixedHeader: false,
+  fixedHeader: true, // 固定头部,滚动时固定
 
   /**
    * @type {boolean} true | false
    * @description Whether show the logo in sidebar
    */
-  sidebarLogo: false
+  sidebarLogo: true // 侧边栏的logo(在Layout组件的Logo.vue)
 }

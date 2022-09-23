@@ -35,13 +35,13 @@ module.exports = {
     overlay: {
       warnings: false,
       errors: true
-    },
-    before: require('./mock/mock-server.js')
+    }
+    // before: require('./mock/mock-server.js') // 模拟代码,暂时不用
   },
   configureWebpack: {
     // provide the app's title in webpack's name field, so that
     // it can be accessed in index.html to inject the correct title.
-    name: name,
+    name: name, // html页面的title标题
     resolve: {
       alias: {
         '@': resolve('src')
